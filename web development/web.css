@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.main{
+    width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://betterhousekeeper.com/wp-content/uploads/2018/12/office-building-landscaping.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.9;
+
+}
+
+.navbar{
+    width: 150px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: right;
+    height: 70px;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 50px;
+    font-family: Arial;
+    padding-left: 40px;
+    float: left;
+    padding-top: 50px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 40px;
+}
+
+ul{ 
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+    margin: 19%;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #9BA49E;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200 
+}
+
+.text-box{
+    width: 90%;
+    color:  #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size:14px;
+    color: #fff
+}
+
+.hero-btn{
+    display:inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #9BA49E;
+    background: #9BA49E;
+    transition: 1s;
+
+}
+.heroo-btn{
+    display:inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.heroo-btn:hover{
+    border: 1px solid #9BA49E;
+    background: #9BA49E;
+    transition: 0.7s;
+
+}
+
+/*------ course ------*/
+
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-col{
+    flex-basis: 31%;
+    background: pink;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.7s;
+}
+h3{
+    text-align: cneter;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,1);
+
+
+}
+
+/*------------  campus  ----------*/
+
+.campus{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.campus-col{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+}
+
+.campus-row::after{
+    content: "";
+    display: table; 
+
+}
+
+.campus-col{
+    flex-basis: 32;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+.campus-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity:1;
+
+}
+
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5;
+}
+
+.layer:hover{
+    background: rgba(185, 199, 212, 0.7);
+
+}
+
+/*---------- facilities ---------*/
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    
+ }
+ .facilities-col{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+ }
+ .facilities-row::after{
+    content: "";
+    display: table;
+ }
+ .facilities-col{
+    flex-basis: 32;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+ 
+ }
+ .facilities-col img{
+    width: 100%;
+    display: block;
+ }
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #0080c0;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
